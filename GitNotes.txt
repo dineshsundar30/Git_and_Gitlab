@@ -1,0 +1,123 @@
+--------------------------------------  git basics commands  --------------------------------------------------------
+
+
+To store your user id password in local
+
+  Download and install git then open your cmd
+    git config --global user.name "dineshsundar30"
+    git config --global user.email "dineshsundar30.gmail.com"
+
+
+
+To copy file from git
+
+git clone gitrepositoriefilelink             --> we should replace our link
+
+
+TO see the status in working copy
+
+git status
+
+
+To add the file from your working copy to staging Area
+
+git add filename                            --> don't forget to replace the filename
+
+
+
+To commit to our local git folder
+
+git commit -m "finename file added"        --> in between "" we can name anything  and don't forget to replace the filename
+
+
+
+To push the changes from local git to actual git
+
+git push origin main                         --> Here main refer to where we want push our file
+
+
+
+If you deleted a file and want to see changes in your local foldar you can follow the below steps
+
+git add filename
+git commit -m "Deleted file"
+git push origin main
+
+
+To do the delete changes in git ( for Example if you delete one file in git)
+
+git status
+git add test.txt   --> Here add not only use to add the files in git also used to reflect the changes we did to git
+
+
+For example if you can able to see the 2 git file in your local and you created a new file in git you can use pull command to get that one file
+and also we can update the change we did in git to our loacl
+
+git pull
+
+
+
+***To push our new folder to git***
+
+git init                                       -->  It will change our normal folder to git local folder
+git add .                                      -->  add . is use to move the changed file to staging Area to commit
+git commit -m "Created some changes"
+
+#Note : in this case you have origin first create new reositorie and follow the below command
+
+git remote add origin that reositorie_like
+
+#Note : here you can't use git push origin main
+
+git branch   --> o/p *master
+
+so can use  ** git push origin master ** to commit or you can change the branch name ** git branch -M main  **
+if you change the branch name you use asusual git push origin main
+
+
+To list the branch in git
+
+git branch -a
+
+
+To create a new branch using terminal
+
+git branch branchname             --> to verify use git branch -a
+
+
+To swith to the new branch
+
+git checkout branchname            --> don't forget to replace the branchname and to conform use ** git branch -a **
+
+
+To Push the changes in new branch
+
+git  push origin branchname          --> don't forget to replace the branchname
+
+
+To know the difference between the branches
+
+cd:/current_branch>  git diff other_branch    ---> command git diff branchname
+
+
+To merge the baranch with main branch
+
+c:/main_branch>  git merge sub_branch
+and don't forget push  here
+git push origin main
+
+
+# clear is used to clear the all command in terminal and  # if you stuck in terminal use press Q to escape
+
+
+
+PULL REQUEST
+
+It is like a merge but here if we not have access to main branch but we did some chagnges in sub branch we need to notify to the right person means, we can use this
+
+
+CONFLICT
+
+IF two people try to commit (2 pull request for same line) the change in the same line git will get confused it's called  CONFLICTE
+we can able to slove this in only manual way
+
