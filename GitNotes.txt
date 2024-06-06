@@ -63,9 +63,9 @@ git init                                       -->  It will change our normal fo
 git add .                                      -->  add . is use to move the changed file to staging Area to commit
 git commit -m "Created some changes"
 
-#Note : in this case you have origin first create new reositorie and follow the below command
+#Note : in this case you don't have origin, first create new reositorie and follow the below command
 
-git remote add origin that reositorie_like
+git remote add origin that_new_reositorie_link
 
 #Note : here you can't use git push origin main
 
