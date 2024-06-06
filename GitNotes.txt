@@ -1,4 +1,4 @@
---------------------------------------  git basics commands  --------------------------------------------------------
+-----------------------------------------------------------------  git basic commands  --------------------------------------------------------------------------
 
 
 To store your user id password in local
@@ -113,11 +113,19 @@ git push origin main
 
 PULL REQUEST
 
-It is like a merge but here if we not have access to main branch but we did some chagnges in sub branch we need to notify to the right person means, we can use this
+It is like a merge but here if we not have access to main branch but we did some chagnges in sub branch we need to notify to the right person means, we can use this.
 
 
 CONFLICT
 
 IF two people try to commit (2 pull request for same line) the change in the same line git will get confused it's called  CONFLICTE
-we can able to slove this in only manual way
+we can able to solve this in only manual way
+
+
+If you want to get the changes from the main branch in your sub branch
+git pull origin main
+
+If you want to get the changes from the sub branch in your main branch
+git push origin sub_branch
+
 
