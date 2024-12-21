@@ -4,8 +4,8 @@
 To store your user id password in local
 
   Download and install git then open your cmd
-    git config --global user.name "dineshsundar30"
-    git config --global user.email "dineshsundar30.gmail.com"
+    git config --global user.name "dinesh********"
+    git config --global user.email "dinesh.gmail.com"
 
 
 
