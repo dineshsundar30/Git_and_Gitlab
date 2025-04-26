@@ -128,4 +128,9 @@ git pull origin main
 If you want to get the changes from the sub branch in your main branch
 git push origin sub_branch
 
+🔹 git push -u origin main sets the upstream so future git push/pull work without extra arguments.
+🔹 Use only for first-time push of a branch; later just use git push
+Example:
+git push -u origin main  # first time  
+git push                 # next time  
 
