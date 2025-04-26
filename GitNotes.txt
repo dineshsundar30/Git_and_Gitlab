@@ -41,7 +41,7 @@ If you deleted a file and want to see changes in your local folder you can follo
 
 git add filename
 git commit -m "Deleted file"
-git push origin main
+git push -u origin main
 
 
 To do the delete changes in git ( for Example if you delete one file in git)
