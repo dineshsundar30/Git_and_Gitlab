@@ -37,7 +37,7 @@ git push origin main                         --> Here main refer to where we wan
 
 
 
-If you deleted a file and want to see changes in your local foldar you can follow the below steps
+If you deleted a file and want to see changes in your local folder you can follow the below steps
 
 git add filename
 git commit -m "Deleted file"
@@ -60,10 +60,10 @@ git pull
 ***To push our new folder to git***
 
 git init                                       -->  It will change our normal folder to git local folder
-git add .                                      -->  add . is use to move the changed file to staging Area to commit
+git add .                                      -->  add . is use to move the all changed and new file to staging Area to commit
 git commit -m "Created some changes"
 
-#Note : in this case you don't have origin, first create new reositorie and follow the below command
+#Note : in this case you don't have origin, first create new repositories and follow the below command
 
 git remote add origin that_new_reositorie_link
 
@@ -72,7 +72,7 @@ git remote add origin that_new_reositorie_link
 git branch   --> o/p *master
 
 so can use  ** git push origin master ** to commit or you can change the branch name ** git branch -M main  **
-if you change the branch name you use asusual git push origin main
+if you change the branch name you use as usual git push origin main
 
 
 To list the branch in git
@@ -113,7 +113,7 @@ git push origin main
 
 PULL REQUEST
 
-It is like a merge but here if we not have access to main branch but we did some chagnges in sub branch we need to notify to the right person means, we can use this.
+It is like a merge but here if we not have access to main branch but we did some changes in sub branch we need to notify to the right person means, we can use this.
 
 
 CONFLICT
