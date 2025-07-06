@@ -53,6 +53,10 @@ $ git push origin <tag-name>                 # Push a tag to remote
 
 
 .gitignore     --> Here we can give any folder or files that we don't want to track and ignore so git will not consider those files and folders
+here we can pass file like 
+foldername
+test.py
+*.exe      --> so it will not consider all .exe files in your project
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. 𝐠𝐢𝐭 𝐝𝐢𝐟𝐟: Show file differences not yet staged.
