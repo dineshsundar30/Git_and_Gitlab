@@ -1,0 +1,8 @@
+
+To isntall the linux using docker
+  docker pull ubuntu:questing-20250830
+  docker run -t -d --name myubuntu ubuntu
+  docker ps
+  docker exec -it myubuntu bash
+
+

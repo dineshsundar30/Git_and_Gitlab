@@ -1,3 +1,0 @@
-
-to isntall the linux using docker
-docker pull ubuntu:questing-20250830
