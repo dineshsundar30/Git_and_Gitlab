@@ -11,3 +11,8 @@ To insatll git in linux
   if your not in root use sudo in front in 
   apt install git -y      --> here y optional it will help to auto fill the yes here
   git --version
+
+To set git code editor 
+  git config --global core.editor "/user/bin/nano"
+  git config --global core.editor "code --wait"
+  
