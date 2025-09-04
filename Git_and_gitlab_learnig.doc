@@ -5,3 +5,8 @@ To isntall the linux using docker
   docker ps
   docker exec -it myubuntu bash
   to verify ubuntu is installed --> cat /etc/os-release
+
+To insatll git in linux
+  apt update
+  if your not in root use sudo in front in 
+  apt install git -y      --> here y optional it will help to auto fill the yes here
