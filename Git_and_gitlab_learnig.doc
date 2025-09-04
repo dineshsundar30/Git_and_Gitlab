@@ -16,3 +16,6 @@ To set git code editor
   git config --global core.editor "/user/bin/nano"
   git config --global core.editor "code --wait"
   
+Basic linux cmds
+ls -la                        To see the hidden files
+rm -rf  dir_name              To force delete
