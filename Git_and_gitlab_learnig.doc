@@ -19,3 +19,4 @@ To set git code editor
 Basic linux cmds
 ls -la                        To see the hidden files
 rm -rf  dir_name              To force delete
+apt list --installed          To list out installed apps
